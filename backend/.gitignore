@@ -1,0 +1,22 @@
+# Ignorar entorno virtual
+venv/
+__pycache__/
+*.pyc
+
+# Ignorar archivos de configuración local
+.env
+.env.local
+.env.*
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+
+# Archivos de VSCode o IDEs
+.vscode/
+.idea/
+
+# Carpeta de dependencias o build
+dist/
+build/
