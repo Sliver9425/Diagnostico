@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8000/auth/login";
+const API_URL = "https://diagnostico-fggf.onrender.com";
 
 document.getElementById("btnLogin").addEventListener("click", async () => {
   const username = document.getElementById("username").value.trim();
